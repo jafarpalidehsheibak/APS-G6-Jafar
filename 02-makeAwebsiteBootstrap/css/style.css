@@ -1,0 +1,46 @@
+@font-face {
+    font-family: yekan;
+    src: url(/fonts/IRANSansWeb.woff2);
+}
+
+*{
+    font-family:yekan;
+}
+
+.tales {
+    width: 100%;
+}
+
+.carousel-inner  img{
+    width: 100%;
+    max-height: 800px !important;
+}
+.card{
+    box-shadow: rgb(167,167,167) !important;
+}
+#tel{
+    border-bottom: 3px solid red;
+    display: inline;
+    text-align: start !important;
+}
+.dv-circle{
+    background-color: blueviolet;
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+}
+
+.dv-circle:hover{
+    /* transform: scale(3.3, 1   ); */
+    /* transform: translate(0px, 5px); */
+    width: 100px;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+.dv-circle .fav {
+    display: none;
+}
+
+.dv-circle:hover .fav {
+    display: block;
+}
